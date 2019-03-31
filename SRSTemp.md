@@ -13,9 +13,3 @@
 ##### 2.4	Constraints
 ##### 2.5	Assumptions and dependencies
 #### 3.	Specific requirements
-##### 3.1	External interfaces
-##### 3.2	Functions
-##### 3.3	Perfomance requirements
-##### 3.4	Logical database requirements
-##### 3.5	Design constraints
-##### 3.6	Software system atributes
