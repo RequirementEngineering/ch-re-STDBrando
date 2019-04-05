@@ -1,9 +1,8 @@
-# SRS
-## System for creation of appointments for customers in a clinic
-#### 1. Introduction
+## Appointment creation system for a clinic
+### 1. Introduction
 .
 ##### 1.1. Purpouse
-To design a system that allows the personal to ease the the way appointments are administrated in the clinic* taking his personal data, date of appointment, clinical trial to be done to the client, ect. As in the past they could only handle these situations with old methods by using paper and pens, writting every appointment.
+Design a system that allows the personal to ease the the way appointments are administrated in the clinic* taking his personal data, date of appointment, clinical trial to be done to the client, ect. As in the past they could only handle these situations with old methods by using paper and pens, writting every appointment.
 
 The use of this system is intended to be used by the administrarive personal in the clinic that takes the role of attending the clients and creating the appointments and doing their desired clinical trials* in the specified date.
 ##### 1.2. Scope
@@ -13,8 +12,9 @@ The data should be saved in a database to avoid the loss of data.
 
 ##### 1.3	Definitions, acronyms, and abbreviations
 Clinical trial
-Drug/medicine
 Clinic
+laboratory
+Reception
 ##### 1.4	References 
 ##### 1.5	Overview
 #### 2. Overall Description
