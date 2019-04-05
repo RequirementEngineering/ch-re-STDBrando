@@ -12,11 +12,18 @@ The system is intended to aid an speed up work performance.
 
 ##### 1.3	Definitions, acronyms, and abbreviations
 Some of the main concepts that are worked in the clinic,
-⋅⋅* Clinical trial:
-Laboratory:
-Hematology:
-Immunology:
-Microbiology:
+* Clinic:
+
+* Clinical trial:
+
+* Laboratory:
+
+* Hematology:
+
+* Immunology:
+
+* Microbiology:
+
 ##### 1.4	References 
 https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
 http://grupoquimico.com.mx/pdf/art1.pdf
