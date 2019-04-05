@@ -12,7 +12,7 @@ The system is intended to aid an speed up work performance.
 
 ##### 1.3	Definitions, acronyms, and abbreviations
 Some of the main concepts that are worked in the clinic,
-"* Clinical trial:
+⋅⋅* Clinical trial:
 Laboratory:
 Hematology:
 Immunology:
