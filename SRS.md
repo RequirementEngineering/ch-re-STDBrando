@@ -68,8 +68,9 @@ Main actions that the system should perform:
 ##### 2.4	Constraints
 to be decided
 ##### 2.5	Assumptions and dependencies
-
+* An Administrator should be able to modify all the data that the employee(user) can.
 ### 3.	Specific requirements
+
 ##### 3.1 
 ##### 3.2 
 ##### 3.3 
