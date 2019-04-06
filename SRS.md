@@ -1,7 +1,7 @@
 ## Appointment creation system for a clinic
 ### 1. Introduction
 ##### 1.1. Purpouse
-Design a system that allows the personal to ease the the way appointments are administrated in the clinic* taking his personal data, date of appointment, clinical trial to be done to the client, ect. As in the past they could only handle these situations with old methods by using paper and pens, writting every appointment.
+Design a system that allows the personal to ease the the way appointments are administrated in the clinic. Obtaining data, date of appointment, clinical trial to be done to the client, ect. As in the past they could only handle these situations with old methods by using paper and pens, writting every appointment.
 
 The use of this system is intended to be used by the administrarive personal in the clinic that takes the role of attending the clients and creating the appointments and doing their desired clinical trials* in the specified date.
 ##### 1.2. Scope
@@ -18,15 +18,15 @@ Its a process oriented to a diagnostic like a disease, disorder, etc.
 * General practitioner:
 In the medical profession is consiered a medical doctor who treats acute an chronic illnesses and provides preventive care and health education.
 * Clinical trial:
-
+In a general sense it can be defined as physical, chemical or microbiologic studies that aids the diagnostic and medical treatment, and these practices are done by doing samples like urine, blood to investigate a posible abnormality.
 * Laboratory:
-
+Its a place where a team of specialized members in the area like medics, analists, technical analists, do human biologic samples.
 * Hematology:
-
+Is the branch of medicine concerned with the study of cause, prognosis, treatment, and prevention of diseases related to blood.
 * Immunology:
-
+A branch of biology that covers the study of immune systems in all organisms.
 * Microbiology:
-
+Is the study of microorganisms, those being unicellular(single cell), multicellular(cell colony), or acellular(lacking cells).
 ##### 1.4	References 
 https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
 http://grupoquimico.com.mx/pdf/art1.pdf
