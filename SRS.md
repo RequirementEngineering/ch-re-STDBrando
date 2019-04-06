@@ -33,10 +33,26 @@ https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
 ANALISIS CLINICOS. Abril 5, 2019, de Grupo quimico:
 http://grupoquimico.com.mx/pdf/art1.pdf
 ##### 1.5	Overview
-#### 2. Overall Description
+The rest of this document will cointain information of the system. 
+Section 2 will give an overall description of the system, it will talk about the people involved in it, what will the system will be expected to do, functions and constraints.
+Section 3 will focus on the specific requirements the system has to deliver.
+### 2. Overall Description
 ##### 2.1. Product Perspective
+This system consists of a application that will save a number of appointments each one with a set of customer information in a database.
+Each time the employee has to create, modify or delete, there will be a number of components in the interface so the system can communicate with the database and apply these changes.
 ##### 2.2	Product Functions
+Main actions that the system should perform:
+* Create a new patient by the use of a button
+* Once created, be able to modify the data of said patient
+* If any sort of business is done with a patient and all his trials are succefully done, there should be a button to delete his data
+* Generate a report that contains the costs of the clinical trial
+* Be able to assign to a patient a doctor for his trial
+* The employee should be able to see the doctor's data and all the patients assigned to them
+* Any information of the doctors should be able to be modified (phone, Mail, etc.)
 ##### 2.3	User characteristics
 ##### 2.4	Constraints
 ##### 2.5	Assumptions and dependencies
-#### 3.	Specific requirements
+### 3.	Specific requirements
+##### 3.1 
+##### 3.2 
+##### 3.3 
