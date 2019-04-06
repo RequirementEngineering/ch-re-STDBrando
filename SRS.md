@@ -13,7 +13,10 @@ The system is intended to aid an speed up work performance.
 ##### 1.3	Definitions, acronyms, and abbreviations
 Some of the main concepts that are worked in the clinic,
 * Clinic:
-
+Can be refer to a general medical practice, run by one or more general practitioners, but it could also mean a specialist clinic.
+Its a process oriented to a diagnostic like a disease, disorder, etc. 
+* General practitioner:
+In the medical profession is consiered a medical doctor who treats acute an chronic illnesses and provides preventive care and health education.
 * Clinical trial:
 
 * Laboratory:
