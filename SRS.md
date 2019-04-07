@@ -74,7 +74,18 @@ to be decided
 The specific actions that the system shall do will be described in this section.
 ##### 3.1 External interfaces
 All the visual elements on the system will be described here, and how the system itself will look to the employee.
-
+* Startup
+- The first screen of the system should be met with a login screen where the employee should input his password given by the administrator
+* Main menu
+- At top view there should be met a number of tabs where the employee should be able to access to create modify and delete data
+- Tabs:
+ - Patients
+ - Doctors
+ - Users
+ - Clinic trials
+Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only him can modify this data.
+* Patient tab
+ - 
 ##### 3.2 Functions
 Here all the descriptions of the actions that can be done in the systems are stated here.
 
