@@ -83,21 +83,21 @@ The first screen of the system should be met with a login screen where the emplo
     2. Doctors
     3. Users
     4. Clinic trials
-- Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only him can modify this data.
+  - Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only him can modify this data.
 * Patient tab
- - This particular screen should have the following sections:
- 1. Search bar along with a "Search" button
- 2. "New" button
- * A table containing all the current patients with the following information on each:
- 1. Name
- 2. Gender
- 3. Date of birth
- 4. Age
- 5. Actions
- - In the actions section of the table two buttons should be there these allow to edit and create a new trial for the customer.
- - The buttons are:
- 1. Edit
- 2. New Trial
+  - This particular screen should have the following sections:
+    1. Search bar along with a "Search" button
+    2. "New" button
+  - A table containing all the current patients with the following information on each:
+    1. Name
+    2. Gender
+    3. Date of birth
+    4. Age
+    5. Actions
+  - In the actions section of the table two buttons should be there these allow to edit and create a new trial for the customer.
+  - The buttons are:
+    1. Edit
+    2. New Trial
 ##### 3.2 Functions
 Here all the descriptions of the actions that can be done in the systems are stated here.
 (use case)
