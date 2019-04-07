@@ -77,27 +77,27 @@ All the visual elements on the system will be described here, and how the system
 * Startup
 The first screen of the system should be met with a login screen where the employee should input his password given by the administrator
 * Main menu
-At top view there should be met a number of tabs where the employee should be able to access to create modify and delete data
-Tabs:
- Patients
- Doctors
- Users
- Clinic trials
-Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only him can modify this data.
+- At top view there should be met a number of tabs where the employee should be able to access to create modify and delete data
+- Tabs:
+ 1. Patients
+ 2. Doctors
+ 3. Users
+ 4. Clinic trials
+- Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only him can modify this data.
 * Patient tab
- This particular screen should have the following sections:
- Search bar along with a "Search" button
- "New" button
- A table containing all the current patients with the following information on each:
- Name
- Gender
- Date of birth
- Age
- Actions
- In the actions section of the table two buttons should be there these allow to edit and create a new trial for the customer.
- The buttons are:
- Edit
- New Trial
+ - This particular screen should have the following sections:
+ 1. Search bar along with a "Search" button
+ 2. "New" button
+ * A table containing all the current patients with the following information on each:
+ 1. Name
+ 2. Gender
+ 3. Date of birth
+ 4. Age
+ 5. Actions
+ - In the actions section of the table two buttons should be there these allow to edit and create a new trial for the customer.
+ - The buttons are:
+ 1. Edit
+ 2. New Trial
 ##### 3.2 Functions
 Here all the descriptions of the actions that can be done in the systems are stated here.
 
