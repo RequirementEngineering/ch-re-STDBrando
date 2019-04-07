@@ -77,8 +77,8 @@ All the visual elements on the system will be described here, and how the system
 * Startup
 The first screen of the system should be met with a login screen where the employee should input his password given by the administrator
 * Main menu
- * At top view there should be met a number of tabs where the employee should be able to access to create modify and delete data
- * Tabs:
+  - At top view there should be met a number of tabs where the employee should be able to access to create modify and delete data
+  - Tabs:
  1. Patients
  2. Doctors
  3. Users
