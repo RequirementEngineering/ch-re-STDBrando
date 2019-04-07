@@ -69,8 +69,13 @@ Main actions that the system should perform:
 to be decided
 ##### 2.5	Assumptions and dependencies
 * An Administrator should be able to modify all the data that the employee(user) can.
+* One employee should be using the system at the time
 ### 3.	Specific requirements
+The specific actions that the system shall do will be described in this section.
+##### 3.1 External interfaces
+All the visual elements on the system will be described here, and how the system itself will look to the employee.
 
-##### 3.1 
-##### 3.2 
+##### 3.2 Functions
+Here all the descriptions of the actions that can be done in the systems are stated here.
+
 ##### 3.3 
