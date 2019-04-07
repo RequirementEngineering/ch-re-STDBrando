@@ -79,7 +79,7 @@ All the visual elements on the system will be described here, and how the system
 * Main menu
 - At top view there should be met a number of tabs where the employee should be able to access to create modify and delete data
 - Tabs:
- - Patients
+ -- Patients
  - Doctors
  - Users
  - Clinic trials
