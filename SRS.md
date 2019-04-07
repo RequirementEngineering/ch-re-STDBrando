@@ -30,10 +30,10 @@ Is the study of microorganisms, those being unicellular(single cell), multicellu
 Patient: 
 Usually will be the customer to take a clinic trial
 ##### 1.4	References 
-Análisis Clínicos. Abril 5, 2019, de EcuRed:
+Análisis Clínicos. April 5, 2019, from EcuRed:
 https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
 
-(2017) ANALISIS CLINICOS. Abril 5, 2019, de Grupo quimico:
+(2017) ANALISIS CLINICOS. April 5, 2019, from Grupo quimico:
 http://grupoquimico.com.mx/pdf/art1.pdf
 ##### 1.5	Overview
 The rest of this document will cointain information of the system. 
@@ -73,7 +73,8 @@ The first screen of the system should be met with a login screen where the emplo
     2. Doctors
     3. Users
     4. Clinic trials
-  - Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only him can modify this data.
+  - Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only them can modify this data
+  - A logout button should be present
 * Patient tab
   - This particular screen should have the following sections:
     1. Search bar along with a "Search" button
@@ -100,7 +101,17 @@ The first screen of the system should be met with a login screen where the emplo
   - The "Actions" sections features one button:
     1. Edit
   - they can be modified in terms of prices and details
-* 
+* User Tab
+  - This screen features a table with details of all the current users and administrators in the system
+  - Only the administrator is allow to modify the information on this screen
+  - New users can be created with the "New user" button
+  - The table features the sections:
+    1. Name
+    2. Phone
+    3. User rights
+    4. Status
+    5. Actions
+  - The "Actions" sections features a "Edit" button that allow to modify the user data and "Delete user" to delete all user information in the system
 ##### 3.2 Functions
 Here all the descriptions of the actions that can be done in the systems are stated here.
 * Functional requirements
