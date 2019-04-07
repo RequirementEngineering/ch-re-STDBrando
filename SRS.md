@@ -116,7 +116,24 @@ The first screen of the system should be met with a login screen where the emplo
 Here all the descriptions of the actions that can be done in the systems are stated here.
 * Functional requirements
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Usecaseadmin.png "Use case actions for the administrator")
-
+* Administrator
+  - The administrator shall be able to do everything the employee (user) can
+  - The system shall allow the administrator to create a new user
+  - The system shall allow the administrator to modify the user information
+  - The system shall allow to add new clinic trial information
+  - The system shall allow to modify clinic trial information
+  - The system shall allow to delete clinic trial information
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Usecaseemployee.png "Use case actions for the employee")
-
+* Employee
+  - The system shall create/add new patient information
+  - The system shall search for a particular patient
+  - The system shall add a trial to a patient
+  - The system shall modify patient information
+  - The system shall add new doctor information
+  - The system shall seatch for a particular doctor information
+  - The system shall modify doctor information
+  - The system shall allow to see the patient assigned to a doctor
 * Non-functional requirements
+- The system is developed on a windows OS
+- The estimated learn time for a user should be around 5 hours
+- The user is not expected to enter to the trials and users tabs
