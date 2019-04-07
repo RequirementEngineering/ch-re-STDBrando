@@ -79,10 +79,10 @@ The first screen of the system should be met with a login screen where the emplo
 * Main menu
   - At top view there should be met a number of tabs where the employee should be able to access to create modify and delete data
   - Tabs:
- 1. Patients
- 2. Doctors
- 3. Users
- 4. Clinic trials
+    1. Patients
+    2. Doctors
+    3. Users
+    4. Clinic trials
 - Consider that only the administrator should be able to access the "Clinic trials" and "Users" tabs, since only him can modify this data.
 * Patient tab
  - This particular screen should have the following sections:
