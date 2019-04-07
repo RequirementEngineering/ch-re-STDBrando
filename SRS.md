@@ -88,7 +88,21 @@ The first screen of the system should be met with a login screen where the emplo
   - The buttons are:
     1. Edit
     2. New Trial
+* Doctor tab
+  - This screen features the doctors in a table available on the clinic
+  - It contains the following elements:
+    1. "New" button
+    2. Inside the table a sub-section called "Actions" features two buttons: "Edit" and "See assigned patients"
+* Trials tab
+  - Only available for the administrators of the system
+  - Features all the costs and available trials at the clinic in a table
+  - The table contains the elements "Trial name", "Price" and "Actions"
+  - The "Actions" sections features one button:
+    1. Edit
+  - they can be modified in terms of prices and details
+* 
 ##### 3.2 Functions
 Here all the descriptions of the actions that can be done in the systems are stated here.
-(use case)
-##### 3.3 Database requirements
+* Functional requirements
+
+* Non-functional requirements
