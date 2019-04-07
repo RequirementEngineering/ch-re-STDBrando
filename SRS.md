@@ -134,6 +134,6 @@ Here all the descriptions of the actions that can be done in the systems are sta
   - The system shall modify doctor information
   - The system shall allow to see the patient assigned to a doctor
 * Non-functional requirements
-- The system is developed on a windows OS
-- The estimated learn time for a user should be around 5 hours
-- The user is not expected to enter to the trials and users tabs
+  - The system is developed on a windows OS
+  - The estimated learn time for a user should be around 5 hours
+  - The user is not expected to enter to the trials and users tabs
