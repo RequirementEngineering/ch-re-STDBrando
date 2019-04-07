@@ -45,28 +45,18 @@ This system consists of a application that will save a number of appointments ea
 Each time the employee has to create, modify or delete, there will be a number of components in the interface so the system can communicate with the database and apply these changes.
 ##### 2.2	Product Functions
 Main actions that the system should perform:
-###### Employee
-* Create a new patient information
-* Once created, be able to modify the data of said patient
-* Delete patient data
-* Generate a report that contains the costs of the clinical trial
-* Be able to assign to a patient a doctor for his trial
-* modify doctor data
-* assign a patient(s) to a doctor
-* The employee should be able to see the doctor's data and all the patients assigned to them
-* Any information of the doctors should be able to be modified (phone, Mail, etc.)
-###### Administrator
-* Add users (employee data) into system
-* Modify user data
-* modify trial data
-* add new trial data
+* Create, modify and delete patient information
+* Generate a reports that contains the costs of the clinical trial
+* Manage information of the doctors in the clinic and patients assigned
+* Manage users (employee data and information) into system
+* Manage trial information (prices, trial available)
 ##### 2.3	User characteristics
 | User    | Details           |
 | ------------- |:-------------:|
 | Employee | The employee will play the role of capturing customer data, also modifying any data. They will be also working with the doctor's data(add patients, add doctors, modify doctor information). |
 | Administrator   | The administrator of the system will play a greater role by modifying and adding trials, it will also take control of the users on the system that are the employees.  | 
 ##### 2.4	Constraints
-to be decided
+--
 ##### 2.5	Assumptions and dependencies
 * An Administrator should be able to modify all the data that the employee(user) can.
 * One employee should be using the system at the time
