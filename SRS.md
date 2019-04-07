@@ -100,5 +100,5 @@ The first screen of the system should be met with a login screen where the emplo
  2. New Trial
 ##### 3.2 Functions
 Here all the descriptions of the actions that can be done in the systems are stated here.
-
-##### 3.3 
+(use case)
+##### 3.3 Database requirements
