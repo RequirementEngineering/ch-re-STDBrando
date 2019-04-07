@@ -115,5 +115,8 @@ The first screen of the system should be met with a login screen where the emplo
 ##### 3.2 Functions
 Here all the descriptions of the actions that can be done in the systems are stated here.
 * Functional requirements
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Usecaseadmin.png "Use case actions for the administrator")
+
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Usecaseemployee.png "Use case actions for the employee")
 
 * Non-functional requirements
