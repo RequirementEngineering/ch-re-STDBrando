@@ -113,7 +113,7 @@ The first screen of the system should be met with a login screen where the emplo
     5. Actions
   - The "Actions" sections features a "Edit" button that allow to modify the user data and "Delete user" to delete all user information in the system
 ##### 3.2 Functions
-Here all the descriptions of the actions that can be done in the systems are stated here.
+A general description of the system function its described here.
 * Functional requirements
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Usecaseadmin.png "Use case actions for the administrator")
 * Administrator
@@ -137,3 +137,8 @@ Here all the descriptions of the actions that can be done in the systems are sta
   - The system is developed on a windows OS
   - The estimated learn time for a user should be around 5 hours
   - The user is not expected to enter to the trials and users tabs
+  
+  Specific functions will be described by the use of "use case" diagrams:
+  
+  ### Appendix
+  ##### Elicitation process
