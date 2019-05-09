@@ -54,7 +54,8 @@ Main actions that the system should perform:
 | User    | Details           |
 | ------------- |:-------------:|
 | Employee | The employee will play the role of capturing customer data, also modifying any data. They will be also working with the doctor's data(add patients, add doctors, modify doctor information). |
-| Administrator   | The administrator of the system will play a greater role by modifying and adding trials, it will also take control of the users on the system that are the employees.  | 
+| Administrator   | The administrator of the system will play a greater role by modifying and adding trials, it will also take control of the users on the system that are the employees.  |
+| Doctor | The doctor has a less important role in the process but just attend the client or know which clients took his trial |
 ##### 2.4	Constraints
 --
 ##### 2.5	Assumptions and dependencies
