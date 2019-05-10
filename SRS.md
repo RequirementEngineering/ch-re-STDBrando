@@ -51,7 +51,7 @@ Main actions that the system should perform:
 | Administrator   | The administrator of the system will play a greater role by modifying and adding trials, it will also take control of the users on the system that are the employees.  |
 | Doctor | The doctor has a less important role in the process but just attend the client or know which clients took his trial. |
 ##### 2.4	Constraints
---TBD
+- The employees in the clinic might not be experienced enough to use the system, so a little extra time is recommended to understand the use of the system.
 ##### 2.5	Assumptions and dependencies
 * An Administrator should be able to modify all the data that the employee(user) can.
 * The user should be able to work only with creating patient information, adding or modifying doctor information.
@@ -117,6 +117,8 @@ The first screen of the system should be met with a login screen where the emplo
 ##### 3.2 Functions
 A general description of the system function its described here.
 * Functional requirements
+Use cases:
+
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
   - The system shall allow the administrator to create a new user
@@ -124,8 +126,7 @@ A general description of the system function its described here.
   - The system shall allow to add new clinic trial information
   - The system shall allow to modify clinic trial information
   - The system shall allow to delete clinic trial information
-  Use cases:
-  
+
 * Employee
   - The system shall create/add new patient information
   - The system shall search for a particular patient
@@ -135,7 +136,6 @@ A general description of the system function its described here.
   - The system shall seatch for a particular doctor information
   - The system shall modify doctor information
   - The system shall allow to see the patient assigned to a doctor
-  Use cases:
 * Non-functional requirements
   - The system is developed on a windows OS
   - The estimated learn time for a user should be around 5 hours
