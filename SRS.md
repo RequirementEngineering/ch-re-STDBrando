@@ -21,14 +21,8 @@ In the medical profession is consiered a medical doctor who treats acute an chro
 In a general sense it can be defined as physical, chemical or microbiologic studies that aids the diagnostic and medical treatment, and these practices are done by doing samples like urine, blood to investigate a posible abnormality.
 * Laboratory:
 Its a place where a team of specialized members in the area like medics, analists, technical analists, do human biologic samples.
-* Hematology:
-Is the branch of medicine concerned with the study of cause, prognosis, treatment, and prevention of diseases related to blood.
-* Immunology:
-A branch of biology that covers the study of immune systems in all organisms.
-* Microbiology:
-Is the study of microorganisms, those being unicellular(single cell), multicellular(cell colony), or acellular(lacking cells).
-Patient: 
-Usually will be the customer to take a clinic trial
+* Patient: 
+Usually will be the customer to take a clinic trial.
 ##### 1.4	References 
 Análisis Clínicos. April 5, 2019, from EcuRed:
 https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
@@ -38,7 +32,7 @@ http://grupoquimico.com.mx/pdf/art1.pdf
 ##### 1.5	Overview
 The rest of this document will cointain information of the system. 
 Section 2 will give an overall description of the system, it will talk about the people involved in it, what will the system will be expected to do, functions and constraints.
-Section 3 will focus on the specific requirements the system has to deliver.
+Section 3 will focus on the specific requirements the system has to deliver using use case diagrams.
 ### 2. Overall Description
 ##### 2.1. Product Perspective
 This system consists of a application that will save a number of appointments each one with a set of customer information in a database.
@@ -53,14 +47,15 @@ Main actions that the system should perform:
 ##### 2.3	User characteristics
 | User    | Details           |
 | ------------- |:-------------:|
-| Employee | The employee will play the role of capturing customer data, also modifying any data. They will be also working with the doctor's data(add patients, add doctors, modify doctor information). |
+| Employee | The employee will play the role of capturing customer data, also modifying any data. They will be also working with the doctor's data(add patients, add doctors, modify doctor information). The employee can be also considered as a regular user on the system. |
 | Administrator   | The administrator of the system will play a greater role by modifying and adding trials, it will also take control of the users on the system that are the employees.  |
-| Doctor | The doctor has a less important role in the process but just attend the client or know which clients took his trial |
+| Doctor | The doctor has a less important role in the process but just attend the client or know which clients took his trial. |
 ##### 2.4	Constraints
---
+--TBD
 ##### 2.5	Assumptions and dependencies
 * An Administrator should be able to modify all the data that the employee(user) can.
-* One employee should be using the system at the time
+* The user should be able to work only with creating patient information, adding or modifying doctor information.
+* One employee should be using the system at the time.
 ### 3.	Specific requirements
 The specific actions that the system shall do will be described in this section.
 ##### 3.1 External interfaces
@@ -80,43 +75,48 @@ The first screen of the system should be met with a login screen where the emplo
   - This particular screen should have the following sections:
     1. Search bar along with a "Search" button
     2. "New" button
+    3. add trial
+    4. generate report
   - A table containing all the current patients with the following information on each:
     1. Name
     2. Gender
     3. Date of birth
-    4. Age
-    5. Actions
-  - In the actions section of the table two buttons should be there these allow to edit and create a new trial for the customer.
-  - The buttons are:
-    1. Edit
-    2. New Trial
+    4. Age 
+    5. assigned trials
 * Doctor tab
   - This screen features the doctors in a table available on the clinic
   - It contains the following elements:
-    1. "New" button
-    2. Inside the table a sub-section called "Actions" features two buttons: "Edit" and "See assigned patients"
+    1. "Add" button
+    2. "Edit" button
+  - A table cointaining all the current doctors available will be shown with the following information
+    1. Name
+    2. Phone No.
+    3. Email
+    4. Address
+    5. Assigned patients
 * Trials tab
   - Only available for the administrators of the system
   - Features all the costs and available trials at the clinic in a table
-  - The table contains the elements "Trial name", "Price" and "Actions"
-  - The "Actions" sections features one button:
-    1. Edit
+  - The table contains the elements "Trial name" and "Price"
+  - It contains two buttons:
+    1. Add
+    2. Edit
   - they can be modified in terms of prices and details
 * User Tab
   - This screen features a table with details of all the current users and administrators in the system
-  - Only the administrator is allow to modify the information on this screen
-  - New users can be created with the "New user" button
+  - Only the administrator is allowed to modify the information on this screen
+  - It contains the following elements:
+    1. "Add" button
+    2. "Edit" button
   - The table features the sections:
     1. Name
     2. Phone
-    3. User rights
-    4. Status
+    3. User rights (Regular or Administrator)
     5. Actions
-  - The "Actions" sections features a "Edit" button that allow to modify the user data and "Delete user" to delete all user information in the system
+
 ##### 3.2 Functions
 A general description of the system function its described here.
 * Functional requirements
-![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Usecaseadmin.png "Use case actions for the administrator")
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
   - The system shall allow the administrator to create a new user
@@ -124,7 +124,8 @@ A general description of the system function its described here.
   - The system shall allow to add new clinic trial information
   - The system shall allow to modify clinic trial information
   - The system shall allow to delete clinic trial information
-![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Usecaseemployee.png "Use case actions for the employee")
+  Use cases:
+  
 * Employee
   - The system shall create/add new patient information
   - The system shall search for a particular patient
@@ -134,12 +135,13 @@ A general description of the system function its described here.
   - The system shall seatch for a particular doctor information
   - The system shall modify doctor information
   - The system shall allow to see the patient assigned to a doctor
+  Use cases:
 * Non-functional requirements
   - The system is developed on a windows OS
   - The estimated learn time for a user should be around 5 hours
   - The user is not expected to enter to the trials and users tabs
+  - A search function has been added in case a high number of patients exist
   
-  Specific functions will be described by the use of "use case" diagrams:
-  
+  ##### 3.3 Database requirements
   ### Appendix
   ##### Elicitation process
