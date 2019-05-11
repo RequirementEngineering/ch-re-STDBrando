@@ -120,7 +120,7 @@ A general description of the system function its described here.
 - Use cases:
 (use case here)
 
-  Name:    | Login            
+ | Name:    | Login |           
 | --- | --- |
  Actors: | Employee, Administrator 
  Pre-conditions: | Have a Password 
@@ -185,7 +185,7 @@ Description: | Allows the employee to add a new trial to the patient history.
 1. The system checks the changes to the data, if any of these is not correct, the system will tell the employee about it. 
 
 (usecase here)
-Name:    | Add doctor           
+|Name:    | Add doctor |           
 | --- | --- |
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
@@ -235,6 +235,37 @@ Description: | Allows the employee to see the patients that will take a trial wi
 - Alternative scenario:  
 
 (usecase here)
+
+|Name:    | Add trial |           
+| --- | --- |
+ Actors: | Administrator
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the administrator to add a trial to the system.
+- Main scenario:   
+1.  The administrator selects the add button on the trial tab.
+2. The system shows the spaces to fill.
+3. The administrator adds the new trial information.
+4. The system checks the information and saves.
+- Alternative scenario
+1. The system checks if the information is correct, if any data is wrong the system tells the administrator about it and allows him to fix it.
+
+Name:    | Modify trial          
+| --- | --- |
+ Actors: | Administrator
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the administrator to change a trial information.
+- Main scenario:   
+1. The administrator selects the trial he/she wants to modify in the patient tab.
+2. The administrator selects the edit button.
+3. The system shows the current data of the doctor.
+4. The administrator does the necessary changes to the trial information.
+5. The system checks the changes and saves.
+- Alternative scenario:  
+1. The system checks if there any wrong data in the doctor information, it will tell the administrator about it and will allow to fix it.
+
+(usecasehere)
+
+
 
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
