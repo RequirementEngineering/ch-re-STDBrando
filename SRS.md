@@ -123,10 +123,14 @@ Use cases:
 | ------------- |:-------------:|
 | Actors: | Employee, Administrator |
 | Pre-conditions: | Have a Password |
-| Description: | Allows the employee or administrator to login into the system |
-| Main scenario: | 1. The actor should press the login button on the main screen, after that input his user name and password.
-2. The system will verify if the password and user name exists or are correct and login into the system.|
-|Alternative scenatio:| 1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. |
+Description: Allows the employee or administrator to login into the system 
+Main scenario:  
+1. The actor should press the login button on the main screen, after that input his user name and password.
+2. The system will verify if the password and user name exists or are correct and login into the system.
+Alternative scenatio:  
+1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. 
+
+
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
   - The system shall allow the administrator to create a new user
