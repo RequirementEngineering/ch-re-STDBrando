@@ -117,7 +117,7 @@ The first screen of the system should be met with a login screen where the emplo
 ##### 3.2 Functions
 A general description of the system function its described here.
 * Functional requirements
-Use cases:
+- Use cases:
 (use case here)
 
   Name:    | Login            
@@ -128,21 +128,64 @@ Description: | Allows the employee or administrator to login into the system
 - Main scenario:   
 1. The actor should press the login button on the main screen, after that input his user name and password.
 2. The system will verify if the password and user name exists or are correct and login into the system.
-- Alternative scenatio:  
+- Alternative scenario:  
 1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. 
 
 (usecase here)
 
-Name:    | Login            
+Name:    | Add patient            
 | --- | --- |
- Actors: | Employee, Administrator 
- Pre-conditions: | Have a Password 
-Description: | Allows the employee or administrator to login into the system 
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to add a new patient on the system
 - Main scenario:   
-1. The actor should press the login button on the main screen, after that input his user name and password.
-2. The system will verify if the password and user name exists or are correct and login into the system.
-- Alternative scenatio:  
-1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. 
+1. The employee selects the "add" button in the patient tab.
+2. The system will show the spaces to fill with their respective information.
+3. The employee fill the empty spaces with the patient information.
+4. The system verifies if all the spaces have been filled and saves them.
+- Alternative scenario:  
+1. The system verifies if all the spaces are filled or if the information is correct, if a space is missing or a certain data is invalid the system will advise the employee of it and will allow the employee to fix it.
+
+Name:    | Search patient            
+| --- | --- |
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to do a search of a specific patient in the list.
+- Main scenario:   
+1. The employee selects the empty box where he/she can input the name of a specific patient.
+2. System checks if there are any coincidence of names with the one the employee writed and shows it.
+- Alternative scenario:  
+1. The system checks if there are any coincidences in the list, if none is found the system will show a error message showing that the specified name could not be found.
+
+Name:    | Modify patient data           
+| --- | --- |
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to change a patient information.
+- Main scenario:   
+1. The employee selects the patient he/she wants to modify in the patient tab.
+2. The employee selects the edit button.
+3. The system shows the current data of the patient.
+4. The employee does the necessary changes to the patient information.
+5. The system checks the changes and saves.
+- Alternative scenario:  
+1. The system checks if there any wrong data in the patient, it will tell the employee about it and will allow to fix it.
+
+Name:    | Add trial to patient           
+| --- | --- |
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to add a new trial to the patient history.
+- Main scenario:   
+1. The employee selects the patient which he/she wants to add a new trial
+2. The employee selects the button modify history
+3. The employee adds a new trial to the patient history
+4. The system checks the selection and saves.
+- Alternative scenario:  
+1. The system checks the changes to the data, if any of these is not correct, the system will tell the employee about it. 
+
+(usecase here)
+
 
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
