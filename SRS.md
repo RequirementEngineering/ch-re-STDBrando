@@ -1,5 +1,5 @@
 ## Appointment creation system for a clinic
-### 1. Introduction
+## 1. Introduction
 ##### 1.1. Purpouse
 Design a system that allows the personal to ease the the way appointments are administrated in the clinic. Obtaining data, date of appointment, clinical trial to be done to the client, ect. As in the past they could only handle these situations with old methods by using paper and pens, writting every appointment.
 
@@ -33,7 +33,7 @@ http://grupoquimico.com.mx/pdf/art1.pdf
 The rest of this document will cointain information of the system. 
 Section 2 will give an overall description of the system, it will talk about the people involved in it, what will the system will be expected to do, functions and constraints.
 Section 3 will focus on the specific requirements the system has to deliver using use case diagrams.
-### 2. Overall Description
+## 2. Overall Description
 ##### 2.1. Product Perspective
 This system consists of a application that will save a number of appointments each one with a set of customer information in a database.
 Each time the employee has to create, modify or delete, there will be a number of components in the interface so the system can communicate with the database and apply these changes.
@@ -56,7 +56,7 @@ Main actions that the system should perform:
 * An Administrator should be able to modify all the data that the employee(user) can.
 * The user should be able to work only with creating patient information, adding or modifying doctor information.
 * One employee should be using the system at the time.
-### 3.	Specific requirements
+## 3.	Specific requirements
 The specific actions that the system shall do will be described in this section.
 ##### 3.1 External interfaces
 All the visual elements on the system will be described here, and how the system itself will look to the employee.
@@ -313,5 +313,16 @@ Description: | Allows the administrator to change a user information.
   
   ##### 3.3 Database requirements
   
-  ### Appendix
+  ## Appendix
   ##### Elicitation process
+The process followed to obtain the requirements of the system was to do an interview to the owner of the clinic. He wanted a system  capable of making the administrative apartment to be more efficient, since as time has passed the clinic has gotten more clients and he feels that the old methods that involved the use of pen and paper might not be enough.
+After the main questions were done, I’ve decided to reach a more open minded interview of what the client would want and I reached to the following conclusions:
+
+* Conclusions
+-	The client decided of a system based on tabs with these respective names: Patients, Doctors, Users, Trials (or also clinic trials)
+-	The client requested that in most tabs, the employee should be able to change most information of a client, a doctor, check all clinical trials information (name, price, etc.)
+-	The doctors do not have a big involvement in the process but to be aware of what clients he has, and when are the appointment dates that they should attend
+-	The client wanted a simple user/administrator system where the administrator would be a specific
+-	Since the way the system is looking it will be necessary to create a database where the patient, doctor, trial information will be stored
+
+  
