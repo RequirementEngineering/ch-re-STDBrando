@@ -117,7 +117,7 @@ The first screen of the system should be met with a login screen where the emplo
 ##### 3.2 Functions
 A general description of the system function its described here.
 * Functional requirements
-- Use cases:
+Use cases:
 (use case here)
 
  | Name:    | Login |           
@@ -257,15 +257,40 @@ Description: | Allows the administrator to change a trial information.
 - Main scenario:   
 1. The administrator selects the trial he/she wants to modify in the patient tab.
 2. The administrator selects the edit button.
-3. The system shows the current data of the doctor.
+3. The system shows the current data of the trial.
 4. The administrator does the necessary changes to the trial information.
 5. The system checks the changes and saves.
 - Alternative scenario:  
-1. The system checks if there any wrong data in the doctor information, it will tell the administrator about it and will allow to fix it.
+1. The system checks if there any wrong data in the trial information, it will tell the administrator about it and will allow to fix it.
 
 (usecasehere)
 
+|Name:    | Add user |           
+| --- | --- |
+ Actors: | Administrator
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the administrator to add a new user to the system.
+- Main scenario:   
+1.  The administrator selects the add button on the users tab.
+2. The system shows the spaces to fill.
+3. The administrator adds the new user information.
+4. The system checks the information and saves.
+- Alternative scenario
+1. The system checks if the information is correct, if any data is wrong the system tells the administrator about it and allows him to fix it.
 
+Name:    | Modify user         
+| --- | --- |
+ Actors: | Administrator
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the administrator to change a user information.
+- Main scenario:   
+1. The administrator selects the user he/she wants to modify in the users tab.
+2. The administrator selects the edit button.
+3. The system shows the current data of the user.
+4. The administrator does the necessary changes to the user information.
+5. The system checks the changes and saves.
+- Alternative scenario:  
+1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
 
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
@@ -291,5 +316,6 @@ Description: | Allows the administrator to change a trial information.
   - A search function has been added in case a high number of patients exist
   
   ##### 3.3 Database requirements
+  
   ### Appendix
   ##### Elicitation process
