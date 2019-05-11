@@ -12,17 +12,16 @@ The system is intended to aid an speed up work performance.
 
 ##### 1.3	Definitions, acronyms, and abbreviations
 Some of the main concepts that are worked in the clinic,
-* Clinic:
-Can be refer to a general medical practice, run by one or more general practitioners, but it could also mean a specialist clinic.
-Its a process oriented to a diagnostic like a disease, disorder, etc. 
-* General practitioner:
-In the medical profession is consiered a medical doctor who treats acute an chronic illnesses and provides preventive care and health education.
-* Clinical trial:
-In a general sense it can be defined as physical, chemical or microbiologic studies that aids the diagnostic and medical treatment, and these practices are done by doing samples like urine, blood to investigate a posible abnormality.
-* Laboratory:
-Its a place where a team of specialized members in the area like medics, analists, technical analists, do human biologic samples.
-* Patient: 
-Usually will be the customer to take a clinic trial.
+
+| Term        | Definition           |
+| ------------- |:-------------:|
+| Clinic     | Can be refer to a general medical practice, run by one or more general practitioners, but it could also mean a specialist clinic.
+Its a process oriented to a diagnostic like a disease, disorder, etc. |
+| General practitioner      |   In the medical profession is consiered a medical doctor who treats acute an chronic illnesses and provides preventive care and health education.    |
+| Clinical trial |   In a general sense it can be defined as physical, chemical or microbiologic studies that aids the diagnostic and medical treatment, and these practices are done by doing samples like urine, blood to investigate a posible abnormality.    |
+| Laboratory | Its a place where a team of specialized members in the area like medics, analists, technical analists, do human biologic samples. |
+| Patient | Usually will be the customer to take a clinic trial. |
+
 ##### 1.4	References 
 Análisis Clínicos. April 5, 2019, from EcuRed:
 https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
@@ -40,7 +39,6 @@ Each time the employee has to create, modify or delete, there will be a number o
 ##### 2.2	Product Functions
 Main actions that the system should perform:
 * Create, modify and delete patient information
-* Generate a reports that contains the costs of the clinical trial
 * Manage information of the doctors in the clinic and patients assigned
 * Manage users (employee data and information) into system
 * Manage trial information (prices, trial available)
@@ -52,10 +50,12 @@ Main actions that the system should perform:
 | Doctor | The doctor has a less important role in the process but just attend the client or know which clients took his trial. |
 ##### 2.4	Constraints
 - The employees in the clinic might not be experienced enough to use the system, so a little extra time is recommended to understand the use of the system.
+- Its important for the employees and administrator to have their passwords at hand since with these they can access the system.
 ##### 2.5	Assumptions and dependencies
 * An Administrator should be able to modify all the data that the employee(user) can.
 * The user should be able to work only with creating patient information, adding or modifying doctor information.
 * One employee should be using the system at the time.
+* 
 ## 3.	Specific requirements
 The specific actions that the system shall do will be described in this section.
 ##### 3.1 External interfaces
@@ -310,9 +310,7 @@ Description: | Allows the administrator to change a user information.
 5. The system checks the changes and saves.
 - Alternative scenario:  
 1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
-  
-  ##### 3.3 Database requirements
-  
+   
   ## Appendix
   ##### Elicitation process
 The process followed to obtain the requirements of the system was to do an interview to the owner of the clinic. He wanted a system  capable of making the administrative apartment to be more efficient, since as time has passed the clinic has gotten more clients and he feels that the old methods that involved the use of pen and paper might not be enough.
