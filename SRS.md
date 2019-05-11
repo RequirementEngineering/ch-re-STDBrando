@@ -117,6 +117,24 @@ The first screen of the system should be met with a login screen where the emplo
 ##### 3.2 Functions
 A general description of the system function its described here.
 * Functional requirements
+* Administrator
+  - The administrator shall be able to do everything the employee (user) can
+  - The system shall allow the administrator to create a new user
+  - The system shall allow the administrator to modify the user information
+  - The system shall allow to add new clinic trial information
+  - The system shall allow to modify clinic trial information
+  - The system shall allow to delete clinic trial information
+
+* Employee
+  - The system shall create/add new patient information
+  - The system shall search for a particular patient
+  - The system shall add a trial to a patient
+  - The system shall modify patient information
+  - The system shall add new doctor information
+  - The system shall seatch for a particular doctor information
+  - The system shall modify doctor information
+  - The system shall allow to see the patient assigned to a doctor
+  
 Use cases:
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Login.png "Login")
 
@@ -292,29 +310,6 @@ Description: | Allows the administrator to change a user information.
 5. The system checks the changes and saves.
 - Alternative scenario:  
 1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
-
-* Administrator
-  - The administrator shall be able to do everything the employee (user) can
-  - The system shall allow the administrator to create a new user
-  - The system shall allow the administrator to modify the user information
-  - The system shall allow to add new clinic trial information
-  - The system shall allow to modify clinic trial information
-  - The system shall allow to delete clinic trial information
-
-* Employee
-  - The system shall create/add new patient information
-  - The system shall search for a particular patient
-  - The system shall add a trial to a patient
-  - The system shall modify patient information
-  - The system shall add new doctor information
-  - The system shall seatch for a particular doctor information
-  - The system shall modify doctor information
-  - The system shall allow to see the patient assigned to a doctor
-* Non-functional requirements
-  - The system is developed on a windows OS
-  - The estimated learn time for a user should be around 5 hours
-  - The user is not expected to enter to the trials and users tabs
-  - A search function has been added in case a high number of patients exist
   
   ##### 3.3 Database requirements
   
