@@ -15,8 +15,7 @@ Some of the main concepts that are worked in the clinic,
 
 | Term        | Definition           |
 | ------------- |:-------------:|
-| Clinic     | Can be refer to a general medical practice, run by one or more general practitioners, but it could also mean a specialist clinic.
-Its a process oriented to a diagnostic like a disease, disorder, etc. |
+| Clinic     | Can be refer to a general medical practice, run by one or more general practitioners, but it could also mean a specialist clinic. Its a process oriented to a diagnostic like a disease, disorder, etc. |
 | General practitioner      |   In the medical profession is consiered a medical doctor who treats acute an chronic illnesses and provides preventive care and health education.    |
 | Clinical trial |   In a general sense it can be defined as physical, chemical or microbiologic studies that aids the diagnostic and medical treatment, and these practices are done by doing samples like urine, blood to investigate a posible abnormality.    |
 | Laboratory | Its a place where a team of specialized members in the area like medics, analists, technical analists, do human biologic samples. |
