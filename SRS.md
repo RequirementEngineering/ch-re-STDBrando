@@ -185,7 +185,56 @@ Description: | Allows the employee to add a new trial to the patient history.
 1. The system checks the changes to the data, if any of these is not correct, the system will tell the employee about it. 
 
 (usecase here)
+Name:    | Add doctor           
+| --- | --- |
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to add a doctor to the system.
+- Main scenario:   
+1.  The employee selects the add button on the doctor tab.
+2. The system shows the spaces to fill.
+3. The employee adds the doctor information.
+4. The system checks the information and saves.
+- Alternative scenario
+1. The system checks if the information is correct, if any data is wrong the system tells the employee about it and allows him to fix it.
 
+Name:    | Search Doctor           
+| --- | --- |
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to do a search of a specific Doctor in the list.
+- Main scenario:   
+1. The employee selects the empty box where he/she can input the name of a specific Doctor.
+2. System checks if there are any coincidence of names with the one the employee writed and shows it.
+- Alternative scenario:  
+1. The system checks if there are any coincidences in the list, if none is found the system will show a error message showing that the specified name could not be found.
+
+Name:    | Modify doctor data           
+| --- | --- |
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to change a doctor information.
+- Main scenario:   
+1. The employee selects the doctor he/she wants to modify in the patient tab.
+2. The employee selects the edit button.
+3. The system shows the current data of the doctor.
+4. The employee does the necessary changes to the doctor information.
+5. The system checks the changes and saves.
+- Alternative scenario:  
+1. The system checks if there any wrong data in the doctor information, it will tell the employee about it and will allow to fix it.
+
+Name:    | See doctor assigned patients          
+| --- | --- |
+ Actors: | Employee
+ Pre-conditions: | Have logon into the system 
+Description: | Allows the employee to see the patients that will take a trial with the specified doctor.
+- Main scenario:   
+1. The employee selects the doctor which he/she wants to see the assigned patients.
+2. The employee selects the check patients button.
+3. The system shows the list of patients.
+- Alternative scenario:  
+
+(usecase here)
 
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
