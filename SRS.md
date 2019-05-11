@@ -119,10 +119,10 @@ A general description of the system function its described here.
 * Functional requirements
 Use cases:
 (use case here)
-| Name:    | Login           |
-| ------------- |:-------------:|
-| Actors: | Employee, Administrator |
-| Pre-conditions: | Have a Password |
+ Name:    | Login           
+| --- | --- |
+ Actors: | Employee, Administrator 
+ Pre-conditions: | Have a Password 
 Description: Allows the employee or administrator to login into the system 
 Main scenario:  
 1. The actor should press the login button on the main screen, after that input his user name and password.
