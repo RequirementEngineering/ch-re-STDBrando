@@ -120,12 +120,6 @@ A general description of the system function its described here.
 Use cases:
 (use case here)
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
   Name:    | Login            
 | --- | --- |
  Actors: | Employee, Administrator 
@@ -137,6 +131,18 @@ Description: | Allows the employee or administrator to login into the system
 - Alternative scenatio:  
 1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. 
 
+(usecase here)
+
+Name:    | Login            
+| --- | --- |
+ Actors: | Employee, Administrator 
+ Pre-conditions: | Have a Password 
+Description: | Allows the employee or administrator to login into the system 
+- Main scenario:   
+1. The actor should press the login button on the main screen, after that input his user name and password.
+2. The system will verify if the password and user name exists or are correct and login into the system.
+- Alternative scenatio:  
+1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. 
 
 * Administrator
   - The administrator shall be able to do everything the employee (user) can
