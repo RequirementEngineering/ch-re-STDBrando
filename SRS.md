@@ -118,7 +118,7 @@ The first screen of the system should be met with a login screen where the emplo
 A general description of the system function its described here.
 * Functional requirements
 Use cases:
-(use case here)
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/tree/master/Images/UseCase Login.png "Login")
 
  | Name:    | Login |           
 | --- | --- |
@@ -131,7 +131,7 @@ Description: | Allows the employee or administrator to login into the system
 - Alternative scenario:  
 1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. 
 
-(usecase here)
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/tree/master/Images/UseCase Patient.png "Patient")
 
 Name:    | Add patient            
 | --- | --- |
@@ -184,7 +184,8 @@ Description: | Allows the employee to add a new trial to the patient history.
 - Alternative scenario:  
 1. The system checks the changes to the data, if any of these is not correct, the system will tell the employee about it. 
 
-(usecase here)
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/tree/master/Images/UseCase Doctor.png "Doctor")
+
 |Name:    | Add doctor |           
 | --- | --- |
  Actors: | Employee
@@ -234,7 +235,7 @@ Description: | Allows the employee to see the patients that will take a trial wi
 3. The system shows the list of patients.
 - Alternative scenario:  
 
-(usecase here)
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/tree/master/Images/UseCase Trials.png "Trial")
 
 |Name:    | Add trial |           
 | --- | --- |
@@ -263,7 +264,7 @@ Description: | Allows the administrator to change a trial information.
 - Alternative scenario:  
 1. The system checks if there any wrong data in the trial information, it will tell the administrator about it and will allow to fix it.
 
-(usecasehere)
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/tree/master/Images/UseCase users.png "Users")
 
 |Name:    | Add user |           
 | --- | --- |
