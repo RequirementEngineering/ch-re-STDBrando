@@ -321,14 +321,14 @@ After the main questions were done, I’ve decided to reach a more open minded i
 -	The doctors do not have a big involvement in the process but to be aware of what clients he has, and when are the appointment dates that they should attend
 -	The client wanted a simple user/administrator system where the administrator would be a specific
 -	Since the way the system is looking it will be necessary to create a database where the patient, doctor, trial information will be stored
-Processes
+* Process
 - A patient requests a trial, first off the employee should fill up information on the client and save it, add his trial(s) in the patient history and the employee Will assign the patient to their respective doctor in the requested trial, the patient will be told to come until the next scheduled appointment.
 Until the date of the scheduled appointment the patient will come to take his trial with the doctor and do the necessary studies to the patient, finally the employee will erase the patient information on the system unless the patient requested to take more than one trial in his history.
-Other
+* Other
 -If a patient desires it he can request a change to his requested trial, for that the employee should only select the client information, and check his trial history and do the changes.
 - The employee can add and remove patients that a doctor will attend.
 -The administrator will be taking control of most of the system, adding and removing user data
 -The employee logs into the system, inputs his password and username, succefully logs in. In case not, the employee should reach the administrator to fix the issue.
-# Business Process Diagrams
+##### Business Process Diagrams
 
   
