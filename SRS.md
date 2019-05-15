@@ -10,11 +10,11 @@ Departamento de Ingeniería Electricidad y Computación</br>
 </p>
 <br>
 <p align="right">
-Materia</br>
+Desarrollo de requisitos de software</br>
 </br>
-title</br>
+Administrative appointement system for clinic </br>
 </br>
-Name</br>
+Brandon Raul Montes Anchondo, 159905</br>
 
 </br>
 
