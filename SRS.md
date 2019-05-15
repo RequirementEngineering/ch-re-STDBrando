@@ -53,10 +53,10 @@ Design a system that allows the personal to ease the the way appointments are ad
 
 The use of this system is intended to be used by the administrarive personal in the clinic that takes the role of attending the clients and creating the appointments and doing their desired clinical trials* in the specified date.
 ##### Scope
-The system allows a receptionist to generate an appointment for a particular client by capturing his information.
-The system should be able to generate a appointment for, first the clinic with information of the client cointaining basic and some personal information like, name, age, trial, may be another extra requirements needed depending of the clinical trial to be done; Second the client should obtain only the information about when to come for the trial, as other information about the appointment.
-The data should be saved in a database to avoid the loss of data.
-The system is intended to aid an speed up work performance.
+The system allows the employee to generate an appointment for a particular client by capturing his information.
+The system should be able to generate a appointment for, first the clinic with information of the client cointaining basic and some personal information like, name, age, trial to be taken, may be another extra requirements needed depending of the clinical trial to be done; Second the client should obtain only the information about when to come for the trial to be attended by the doctor, as other information about the appointment.
+A small database should be used to save the client, doctor, trial, etc. data
+The system is intended to aid an speed up work performance of the administrative area of the clinic.
 
 ##### Definitions, acronyms, and abbreviations
 Some of the main concepts that are worked in the clinic,
@@ -75,20 +75,23 @@ https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
 
 (2017) ANALISIS CLINICOS. April 5, 2019, from Grupo quimico:
 http://grupoquimico.com.mx/pdf/art1.pdf
+
 ##### Overview
 The rest of this document will cointain information of the system. 
 Section 2 will give an overall description of the system, it will talk about the people involved in it, what will the system will be expected to do, functions and constraints.
 Section 3 will focus on the specific requirements the system has to deliver using use case diagrams.
+The appendix will cointain information on the elicitacion and business process model.
 ## Overall Description
+
 ##### Product Perspective
-This system consists of a application that will save a number of appointments each one with a set of customer information in a database.
-Each time the employee has to create, modify or delete, there will be a number of components in the interface so the system can communicate with the database and apply these changes.
+This system consists of a independent application that will save information each one with customer, doctor, clinic trial information in a database.
+Each time the employee has to create, modify or delete any of these elements, there will be a number of components in the interface so the system can communicate with the database and apply these changes.
 ##### Product Functions
 Main actions that the system should perform:
-* Create, modify and delete patient information
-* Manage information of the doctors in the clinic and patients assigned
-* Manage users (employee data and information) into system
-* Manage trial information (prices, trial available)
+* Create, modify and delete patient, doctor, user and clinic trial information.
+* Manage information of the doctors in the clinic and patients assigned.
+* Manage users (employee data and information) into system.
+* Manage trial information (prices, trial available).
 ##### User characteristics
 | User    | Details           |
 | ------------- |:-------------:|
@@ -99,10 +102,12 @@ Main actions that the system should perform:
 - The employees in the clinic might not be experienced enough to use the system, so a little extra time is recommended to understand the use of the system.
 - Its important for the employees and administrator to have their passwords at hand since with these they can access the system.
 ##### Assumptions and dependencies
-* An Administrator should be able to modify all the data that the employee(user) can.
-* The user should be able to work only with creating patient information, adding or modifying doctor information.
-* One employee should be using the system at the time.
-* 
+* Assumptions
+  - An Administrator should be able to modify all the data that the employee(user) can.
+  - The user should be able to work only with creating patient information, adding or modifying doctor information.
+  - One employee should be using the system at the time.
+* Dependencies
+  - The system should be running only on a windows OS.
 ## Specific requirements
 The specific actions that the system shall do will be described in this section.
 ##### External interfaces
