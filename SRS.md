@@ -196,11 +196,9 @@ Use cases:
  Actors: | Employee, Administrator 
  Pre-conditions: | Have a Password 
 Description: | Allows the employee or administrator to login into the system 
-| Main scenario: |  
-1. The actor should press the login button on the main screen, after that input his user name and password.
+| Main scenario: |  1. The actor should press the login button on the main screen, after that input his user name and password.
 2. The system will verify if the password and user name exists or are correct and login into the system. |
-| Alternative scenario:  |
-1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. |
+| Alternative scenario:  | 1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. |
 
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Patient.png "Patient")
 
