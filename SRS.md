@@ -169,23 +169,24 @@ The first screen of the system should be met with a login screen where the emplo
 ##### Functions
 A general description of the system function its described here.
 * Functional requirements
-* Administrator
-  - The administrator shall be able to do everything the employee (user) can
-  - The system shall allow the administrator to create a new user
-  - The system shall allow the administrator to modify the user information
-  - The system shall allow to add new clinic trial information
-  - The system shall allow to modify clinic trial information
-  - The system shall allow to delete clinic trial information
-
-* Employee
-  - The system shall create/add new patient information
-  - The system shall search for a particular patient
-  - The system shall add a trial to a patient
-  - The system shall modify patient information
-  - The system shall add new doctor information
-  - The system shall seatch for a particular doctor information
-  - The system shall modify doctor information
-  - The system shall allow to see the patient assigned to a doctor
+    - The administrator shall be able to do everything the employee can.
+    - The system shall allow the administrator to create a new user.
+    - The system shall allow the administrator to modify the user information.
+    - The system shall allow to add new clinic trial information.
+    - The system shall allow to modify clinic trial information.
+    - The system shall allow to delete clinic trial information.
+    - The system shall create/add new patient information.
+    - The system shall search for a particular patient.
+    - The system shall add a trial to a patient.
+    - The system shall modify patient information.
+    - The system shall add new doctor information.
+    - The system shall seatch for a particular doctor information.
+    - The system shall modify doctor information.
+    - The system shall allow to see the patient assigned to a doctor.
+    
+* Non functional requirements
+  - The system will have a search in case a high number of clients or doctors are in the system making easier to find a specific name.
+  - The system will use a small database that will be storing the client, doctor, trial, and user information for when is needed.
   
 Use cases:
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Login.png "Login")
@@ -195,11 +196,11 @@ Use cases:
  Actors: | Employee, Administrator 
  Pre-conditions: | Have a Password 
 Description: | Allows the employee or administrator to login into the system 
-- Main scenario:   
+| Main scenario: |  
 1. The actor should press the login button on the main screen, after that input his user name and password.
-2. The system will verify if the password and user name exists or are correct and login into the system.
-- Alternative scenario:  
-1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. 
+2. The system will verify if the password and user name exists or are correct and login into the system. |
+| Alternative scenario:  |
+1. The system detects that the user name or password are not correct or do not exist in it and shows a error message, telling the actor the information introudced are not correct. |
 
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Patient.png "Patient")
 
