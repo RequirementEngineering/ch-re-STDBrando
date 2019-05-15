@@ -207,13 +207,11 @@ Name:    | Add patient
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to add a new patient on the system
-- Main scenario:   
-1. The employee selects the "add" button in the patient tab.
-2. The system will show the spaces to fill with their respective information.
-3. The employee fill the empty spaces with the patient information.
-4. The system verifies if all the spaces have been filled and saves them.
-- Alternative scenario:  
-1. The system verifies if all the spaces are filled or if the information is correct, if a space is missing or a certain data is invalid the system will advise the employee of it and will allow the employee to fix it.
+| Main scenario: |  1. The employee selects the "add" button in the patient tab.|
+||2. The system will show the spaces to fill with their respective information.|
+||3. The employee fill the empty spaces with the patient information.|
+||4. The system verifies if all the spaces have been filled and saves them.|
+|Alternative scenario:  |1. The system verifies if all the spaces are filled or if the information is correct, if a space is missing or a certain data is invalid the system will advise the employee of it and will allow the employee to fix it.|
 
 Name:    | Search patient            
 | --- | --- |
