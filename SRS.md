@@ -6,7 +6,7 @@ Departamento de Ingeniería Electricidad y Computación</br>
 <br>
 <p align="center">
 <img width="270" height="270" 
-  IMAGEsrc="http://www.uacj.mx/comunicacion/PublishingImages/Escudo%20UACJ%202015/Escudo%20uacj%202015-color-sin%20fondo.png">IMAGE
+  src="https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/Escudo%20uacj%202015-color-sin%20fondo.png">
 </p>
 <br>
 <p align="right">
