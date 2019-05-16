@@ -188,8 +188,7 @@ A general description of the system function its described here.
 
   - The system will have a search in case a high number of clients or doctors are in the system making easier to find a specific name.
   - The system will use a small database that will be storing the client, doctor, trial, and user information for when is needed.
-  
-* Use cases
+##### Use cases 
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Login.png "Login")
 
  | Name:    | Login |           
