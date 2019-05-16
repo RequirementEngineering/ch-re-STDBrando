@@ -37,7 +37,7 @@ May 2019
     - [User characteristics](#User-characteristics)
     - [Constrains](#Constrains)
 3. [Specific requirements](#Specific-requirements) 
-    - [Interface](#Interface)
+    - [External interface](#External interfaces)
     - [Requirements](#requirements)
        - [Functional requirements by users](#Functional-requirements-by-users)
        - [Non functional requirements](#Non-functional-requirements) 
@@ -48,17 +48,17 @@ May 2019
 Brandon raul montes anchondo, 159905
 ## Appointment system for a clinic
 ## Introduction
-##### Purpouse
+#### Purpouse
 Design a system that allows the personal to ease the the way appointments are administrated in the clinic. Obtaining data, date of appointment, clinical trial to be done to the client, ect. As in the past they could only handle these situations with old methods by using paper and pens, writting every appointment.
 
 The use of this system is intended to be used by the administrarive personal in the clinic that takes the role of attending the clients and creating the appointments and doing their desired clinical trials* in the specified date.
-##### Scope
+#### Scope
 The system allows the employee to generate an appointment for a particular client by capturing his information.
 The system should be able to generate a appointment for, first the clinic with information of the client cointaining basic and some personal information like, name, age, trial to be taken, may be another extra requirements needed depending of the clinical trial to be done; Second the client should obtain only the information about when to come for the trial to be attended by the doctor, as other information about the appointment.
 A small database should be used to save the client, doctor, trial, etc. data
 The system is intended to aid an speed up work performance of the administrative area of the clinic.
 
-##### Definitions, acronyms, and abbreviations
+#### Definitions, acronyms, and abbreviations
 Some of the main concepts that are worked in the clinic,
 
 | Term        | Definition           |
@@ -69,39 +69,39 @@ Some of the main concepts that are worked in the clinic,
 | Laboratory | Its a place where a team of specialized members in the area like medics, analists, technical analists, do human biologic samples. |
 | Patient | Usually will be the customer to take a clinic trial. |
 
-##### References 
+#### References 
 Análisis Clínicos. April 5, 2019, from EcuRed:
 https://www.ecured.cu/An%C3%A1lisis_Cl%C3%ADnicos
 
 (2017) ANALISIS CLINICOS. April 5, 2019, from Grupo quimico:
 http://grupoquimico.com.mx/pdf/art1.pdf
 
-##### Overview
+#### Overview
 The rest of this document will cointain information of the system. 
 Section 2 will give an overall description of the system, it will talk about the people involved in it, what will the system will be expected to do, functions and constraints.
 Section 3 will focus on the specific requirements the system has to deliver using use case diagrams.
 The appendix will cointain information on the elicitacion and business process model.
 ## Overall Description
 
-##### Product Perspective
+#### Product Perspective
 This system consists of a independent application that will save information each one with customer, doctor, clinic trial information in a database.
 Each time the employee has to create, modify or delete any of these elements, there will be a number of components in the interface so the system can communicate with the database and apply these changes.
-##### Product Functions
+#### Product Functions
 Main actions that the system should perform:
 * Create, modify and delete patient, doctor, user and clinic trial information.
 * Manage information of the doctors in the clinic and patients assigned.
 * Manage users (employee data and information) into system.
 * Manage trial information (prices, trial available).
-##### User characteristics
+#### User characteristics
 | User    | Details           |
 | ------------- |:-------------:|
 | Employee | The employee will play the role of capturing customer data, also modifying any data. They will be also working with the doctor's data(add patients, add doctors, modify doctor information). The employee can be also considered as a regular user on the system. |
 | Administrator   | The administrator of the system will play a greater role by modifying and adding trials, it will also take control of the users on the system that are the employees.  |
 | Doctor | The doctor has a less important role in the process but just attend the client or know which clients took his trial. |
-##### Constraints
+#### Constraints
 - The employees in the clinic might not be experienced enough to use the system, so a little extra time is recommended to understand the use of the system.
 - Its important for the employees and administrator to have their passwords at hand since with these they can access the system.
-##### Assumptions and dependencies
+#### Assumptions and dependencies
 * Assumptions
   - An Administrator should be able to modify all the data that the employee(user) can.
   - The user should be able to work only with creating patient information, adding or modifying doctor information.
@@ -110,7 +110,7 @@ Main actions that the system should perform:
   - The system should be running only on a windows OS.
 ## Specific requirements
 The specific actions that the system shall do will be described in this section.
-##### External interfaces
+#### External interfaces
 All the visual elements on the system will be described here, and how the system itself will look to the employee.
 * Startup
 The first screen of the system should be met with a login screen where the employee should input his password given by the administrator
@@ -166,7 +166,7 @@ The first screen of the system should be met with a login screen where the emplo
     3. User rights (Regular or Administrator)
     5. Actions
 
-##### Functions
+#### Functions
 A general description of the system function its described here.
 * Functional requirements
     - The administrator shall be able to do everything the employee can.
@@ -340,7 +340,7 @@ Description: | Allows the administrator to change a user information.
 |Alternative scenario:  |1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
    
   ## Appendix
-  ##### Elicitation process
+  #### Elicitation process
 The process followed to obtain the requirements of the system was to do an interview to the owner of the clinic. He wanted a system  capable of making the administrative apartment to be more efficient, since as time has passed the clinic has gotten more clients and he feels that the old methods that involved the use of pen and paper might not be enough.
 After the main questions were done, I’ve decided to reach a more open minded interview of what the client would want and I reached to the following conclusions:
 
