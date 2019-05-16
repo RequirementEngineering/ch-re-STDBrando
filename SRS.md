@@ -31,19 +31,18 @@ May 2019
     - [Overview](#Overview)
 
 2. [Overrall description](#Overall-description)
-    - [Business Managment Process](#Business-Managment-Process)
     - [Product perspective](#Product-perspective)
        - [Product Functions](#Product-functions) 
     - [User characteristics](#User-characteristics)
     - [Constrains](#Constrains)
 3. [Specific requirements](#Specific-requirements) 
-    - [External interface](#External interfaces)
+    - [External interface](#External-interfaces)
     - [Requirements](#requirements)
-       - [Functional requirements by users](#Functional-requirements-by-users)
+       - [Functional requirements](#Functional-requirements)
        - [Non functional requirements](#Non-functional-requirements) 
-3. [Appendices](#Appendices) 
+3. [Appendix](#Appendix) 
    - [Elicitation process](#Elicitation-process)
-
+   - [Business Managment Process](#Business-Managment-Process)
 
 Brandon raul montes anchondo, 159905
 ## Appointment system for a clinic
@@ -166,7 +165,7 @@ The first screen of the system should be met with a login screen where the emplo
     3. User rights (Regular or Administrator)
     5. Actions
 
-#### Functions
+#### Requirements
 A general description of the system function its described here.
 * Functional requirements
     - The administrator shall be able to do everything the employee can.
@@ -338,6 +337,10 @@ Description: | Allows the administrator to change a user information.
 ||4. The administrator does the necessary changes to the user information.|
 ||5. The system checks the changes and saves.|
 |Alternative scenario:  |1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
+#### User requirements
+
+#### System requirements
+
    
   ## Appendix
   #### Elicitation process
