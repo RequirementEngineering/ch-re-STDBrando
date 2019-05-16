@@ -42,7 +42,7 @@ May 2019
        - [Non functional requirements](#Non-functional-requirements) 
 3. [Appendix](#Appendix) 
    - [Elicitation process](#Elicitation-process)
-   - [Business Managment Process](#Business-Managment-Process)
+   - [Business Managment Process](#Business-Process-Diagrams)
 
 Brandon raul montes anchondo, 159905
 ## Appointment system for a clinic
