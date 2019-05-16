@@ -218,38 +218,32 @@ Name:    | Search patient
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to do a search of a specific patient in the list.
-- Main scenario:   
-1. The employee selects the empty box where he/she can input the name of a specific patient.
-2. System checks if there are any coincidence of names with the one the employee writed and shows it.
-- Alternative scenario:  
-1. The system checks if there are any coincidences in the list, if none is found the system will show a error message showing that the specified name could not be found.
+|Main scenario: |  1. The employee selects the empty box where he/she can input the name of a specific patient.|
+||2. System checks if there are any coincidence of names with the one the employee writed and shows it.|
+|Alternative scenario:  |1. The system checks if there are any coincidences in the list, if none is found the system will show a error message showing that the specified name could not be found.|
 
 Name:    | Modify patient data           
 | --- | --- |
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to change a patient information.
-- Main scenario:   
-1. The employee selects the patient he/she wants to modify in the patient tab.
-2. The employee selects the edit button.
-3. The system shows the current data of the patient.
-4. The employee does the necessary changes to the patient information.
-5. The system checks the changes and saves.
-- Alternative scenario:  
-1. The system checks if there any wrong data in the patient, it will tell the employee about it and will allow to fix it.
+|Main scenario:   |1. The employee selects the patient he/she wants to modify in the patient tab.|
+||2. The employee selects the edit button.|
+||3. The system shows the current data of the patient.|
+||4. The employee does the necessary changes to the patient information.|
+||5. The system checks the changes and saves.|
+|Alternative scenario:  |1. The system checks if there any wrong data in the patient, it will tell the employee about it and will allow to fix it.|
 
 Name:    | Add trial to patient           
 | --- | --- |
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to add a new trial to the patient history.
-- Main scenario:   
-1. The employee selects the patient which he/she wants to add a new trial
-2. The employee selects the button modify history
-3. The employee adds a new trial to the patient history
-4. The system checks the selection and saves.
-- Alternative scenario:  
-1. The system checks the changes to the data, if any of these is not correct, the system will tell the employee about it. 
+|Main scenario:   |1. The employee selects the patient which he/she wants to add a new trial|
+||2. The employee selects the button modify history|
+||3. The employee adds a new trial to the patient history.|
+||4. The system checks the selection and saves.|
+|Alternative scenario:  |1. The system checks the changes to the data, if any of these is not correct, the system will tell the employee about it. |
 
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Doctor.png "Doctor")
 
@@ -258,49 +252,42 @@ Description: | Allows the employee to add a new trial to the patient history.
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to add a doctor to the system.
-- Main scenario:   
-1.  The employee selects the add button on the doctor tab.
-2. The system shows the spaces to fill.
-3. The employee adds the doctor information.
-4. The system checks the information and saves.
-- Alternative scenario
-1. The system checks if the information is correct, if any data is wrong the system tells the employee about it and allows him to fix it.
+|Main scenario:   |1.  The employee selects the add button on the doctor tab.|
+||2. The system shows the spaces to fill.|
+||3. The employee adds the doctor information.|
+||4. The system checks the information and saves.|
+|Alternative scenario|1. The system checks if the information is correct, if any data is wrong the system tells the employee about it and allows him to fix it.|
 
 Name:    | Search Doctor           
 | --- | --- |
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to do a search of a specific Doctor in the list.
-- Main scenario:   
-1. The employee selects the empty box where he/she can input the name of a specific Doctor.
-2. System checks if there are any coincidence of names with the one the employee writed and shows it.
-- Alternative scenario:  
-1. The system checks if there are any coincidences in the list, if none is found the system will show a error message showing that the specified name could not be found.
+|Main scenario:   |1. The employee selects the empty box where he/she can input the name of a specific Doctor.|
+||2. System checks if there are any coincidence of names with the one the employee writed and shows it.|
+|Alternative scenario:  |1. The system checks if there are any coincidences in the list, if none is found the system will show a error message showing that the specified name could not be found.|
 
 Name:    | Modify doctor data           
 | --- | --- |
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to change a doctor information.
-- Main scenario:   
-1. The employee selects the doctor he/she wants to modify in the patient tab.
-2. The employee selects the edit button.
-3. The system shows the current data of the doctor.
-4. The employee does the necessary changes to the doctor information.
-5. The system checks the changes and saves.
-- Alternative scenario:  
-1. The system checks if there any wrong data in the doctor information, it will tell the employee about it and will allow to fix it.
+|Main scenario:   |1. The employee selects the doctor he/she wants to modify in the patient tab.|
+||2. The employee selects the edit button.|
+||3. The system shows the current data of the doctor.|
+||4. The employee does the necessary changes to the doctor information.|
+||5. The system checks the changes and saves.|
+|Alternative scenario:  |1. The system checks if there any wrong data in the doctor information, it will tell the employee about it and will allow to fix it.|
 
 Name:    | See doctor assigned patients          
 | --- | --- |
  Actors: | Employee
  Pre-conditions: | Have logon into the system 
 Description: | Allows the employee to see the patients that will take a trial with the specified doctor.
-- Main scenario:   
-1. The employee selects the doctor which he/she wants to see the assigned patients.
-2. The employee selects the check patients button.
-3. The system shows the list of patients.
-- Alternative scenario:  
+|Main scenario:   |1. The employee selects the doctor which he/she wants to see the assigned patients.|
+||2. The employee selects the check patients button.|
+||3. The system shows the list of patients.|
+|- Alternative scenario:  |None|
 
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Trials.png "Trial")
 
@@ -309,27 +296,23 @@ Description: | Allows the employee to see the patients that will take a trial wi
  Actors: | Administrator
  Pre-conditions: | Have logon into the system 
 Description: | Allows the administrator to add a trial to the system.
-- Main scenario:   
-1.  The administrator selects the add button on the trial tab.
-2. The system shows the spaces to fill.
-3. The administrator adds the new trial information.
-4. The system checks the information and saves.
-- Alternative scenario
-1. The system checks if the information is correct, if any data is wrong the system tells the administrator about it and allows him to fix it.
+|Main scenario:   |1.  The administrator selects the add button on the trial tab.|
+||2. The system shows the spaces to fill.|
+||3. The administrator adds the new trial information.|
+||4. The system checks the information and saves.|
+|Alternative scenario|1. The system checks if the information is correct, if any data is wrong the system tells the administrator about it and allows him to fix it.|
 
 Name:    | Modify trial          
 | --- | --- |
  Actors: | Administrator
  Pre-conditions: | Have logon into the system 
 Description: | Allows the administrator to change a trial information.
-- Main scenario:   
-1. The administrator selects the trial he/she wants to modify in the patient tab.
-2. The administrator selects the edit button.
-3. The system shows the current data of the trial.
-4. The administrator does the necessary changes to the trial information.
-5. The system checks the changes and saves.
-- Alternative scenario:  
-1. The system checks if there any wrong data in the trial information, it will tell the administrator about it and will allow to fix it.
+|Main scenario:   |1. The administrator selects the trial he/she wants to modify in the patient tab.|
+||2. The administrator selects the edit button.|
+||3. The system shows the current data of the trial.|
+||4. The administrator does the necessary changes to the trial information.|
+||5. The system checks the changes and saves.|
+|Alternative scenario:  |1. The system checks if there any wrong data in the trial information, it will tell the administrator about it and will allow to fix it.|
 
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20users.png "Users")
 
@@ -338,27 +321,23 @@ Description: | Allows the administrator to change a trial information.
  Actors: | Administrator
  Pre-conditions: | Have logon into the system 
 Description: | Allows the administrator to add a new user to the system.
-- Main scenario:   
-1.  The administrator selects the add button on the users tab.
-2. The system shows the spaces to fill.
-3. The administrator adds the new user information.
-4. The system checks the information and saves.
-- Alternative scenario
-1. The system checks if the information is correct, if any data is wrong the system tells the administrator about it and allows him to fix it.
+|Main scenario:   |1.  The administrator selects the add button on the users tab.|
+||2. The system shows the spaces to fill.|
+||3. The administrator adds the new user information.|
+||4. The system checks the information and saves.|
+|Alternative scenario|1. The system checks if the information is correct, if any data is wrong the system tells the administrator about it and allows him to fix it.|
 
 Name:    | Modify user         
 | --- | --- |
  Actors: | Administrator
  Pre-conditions: | Have logon into the system 
 Description: | Allows the administrator to change a user information.
-- Main scenario:   
-1. The administrator selects the user he/she wants to modify in the users tab.
-2. The administrator selects the edit button.
-3. The system shows the current data of the user.
-4. The administrator does the necessary changes to the user information.
-5. The system checks the changes and saves.
-- Alternative scenario:  
-1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
+|Main scenario:   |1. The administrator selects the user he/she wants to modify in the users tab.|
+||2. The administrator selects the edit button.|
+||3. The system shows the current data of the user.|
+||4. The administrator does the necessary changes to the user information.|
+||5. The system checks the changes and saves.|
+|Alternative scenario:  |1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
    
   ## Appendix
   ##### Elicitation process
