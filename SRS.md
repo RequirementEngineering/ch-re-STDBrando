@@ -189,7 +189,7 @@ A general description of the system function its described here.
   - The system will have a search in case a high number of clients or doctors are in the system making easier to find a specific name.
   - The system will use a small database that will be storing the client, doctor, trial, and user information for when is needed.
   
-Use cases:
+* Use cases
 ![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/UseCase%20Login.png "Login")
 
  | Name:    | Login |           
@@ -339,14 +339,17 @@ Description: | Allows the administrator to change a user information.
 ||4. The administrator does the necessary changes to the user information.|
 ||5. The system checks the changes and saves.|
 |Alternative scenario:  |1. The system checks if there any wrong data in the user information, it will tell the administrator about it and will allow to fix it.
-#### User requirements
 
-#### System requirements
-
-   
   ## Appendix
   #### Elicitation process
 The process followed to obtain the requirements of the system was to do an interview to the owner of the clinic. He wanted a system  capable of making the administrative apartment to be more efficient, since as time has passed the clinic has gotten more clients and he feels that the old methods that involved the use of pen and paper might not be enough.
+
+    - How your employees work with customers to make appointments for them?
+    - Are doctors also part of the process or they are just called out for what people to attend?
+    - Is it only one employee using the system, or there are more than one at a time?
+    - How much clients do you get per day?
+    - Do your employees have any experience with computers, in the most basic level?
+
 After the main questions were done, I’ve decided to reach a more open minded interview of what the client would want and I reached to the following conclusions:
 
 * Conclusions
