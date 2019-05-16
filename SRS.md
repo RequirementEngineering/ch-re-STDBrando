@@ -32,7 +32,7 @@ May 2019
 
 2. [Overrall description](#Overall-description)
     - [Product perspective](#Product-perspective)
-       - [Product Functions](#Product-functions) 
+       - [Product Functions](#Product-Functions) 
     - [User characteristics](#User-characteristics)
     - [Constrains](#Constrains)
 3. [Specific requirements](#Specific-requirements) 
@@ -167,7 +167,8 @@ The first screen of the system should be met with a login screen where the emplo
 
 #### Requirements
 A general description of the system function its described here.
-* Functional requirements
+##### Functional requirements
+
     - The administrator shall be able to do everything the employee can.
     - The system shall allow the administrator to create a new user.
     - The system shall allow the administrator to modify the user information.
@@ -183,7 +184,8 @@ A general description of the system function its described here.
     - The system shall modify doctor information.
     - The system shall allow to see the patient assigned to a doctor.
     
-* Non functional requirements
+##### Non functional requirements
+
   - The system will have a search in case a high number of clients or doctors are in the system making easier to find a specific name.
   - The system will use a small database that will be storing the client, doctor, trial, and user information for when is needed.
   
