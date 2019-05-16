@@ -366,7 +366,7 @@ Until the date of the scheduled appointment the patient will come to take his tr
 3. The administrator will be taking control of most of the system, adding and removing user data
 4. The employee logs into the system, inputs his password and username, succefully logs in. In case not, the employee should reach the administrator to fix the issue.
 ##### Business Process Diagrams
-![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/ClinicBPM.png "Main process")AAAAA
-![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/cliniLoginBPM.png "Login sub process")AAAAA
-![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/clinicTrialBPM.png "Trial data Sub Process")AAA
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/ClinicBPM.png "Main process")
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/ClinicLoginBPM.png "Login sub process")
+![alt text](https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/ClinicTrialBPM.png "Trial Sub Process")
   
