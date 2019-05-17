@@ -45,7 +45,6 @@ May 2019
    - [Business Managment Process](#Business-Process-Diagrams)
 
 Brandon raul montes anchondo, 159905
-## Appointment system for a clinic
 ## Introduction
 #### Purpouse
 Design a system that allows the personal to ease the the way appointments are administrated in the clinic. Obtaining data, date of appointment, clinical trial to be done to the client, ect. As in the past they could only handle these situations with old methods by using paper and pens, writting every appointment.
